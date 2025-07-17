@@ -1,2 +1,235 @@
 # The-Misandry-Manifesto
 Bold and provocative // References "The SCUM Manifesto" vibes
+
+
+source code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 Reasons Why I Am a Misandrist</title>
+    <style>
+        :root {
+            --dark-bg: #121212;
+            --accent-red: #ff4d4d;
+            --text-primary: #f0f0f0;
+            --text-secondary: #cccccc;
+            --highlight: #ff6b6b;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            border-bottom: 1px solid var(--accent-red);
+            padding-bottom: 1.5rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-red);
+        }
+        
+        .subtitle {
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+        
+        .reason {
+            background-color: rgba(255, 77, 77, 0.1);
+            border-left: 4px solid var(--accent-red);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 0 4px 4px 0;
+            transition: transform 0.3s ease;
+        }
+        
+        .reason:hover {
+            transform: translateX(5px);
+        }
+        
+        .reason-number {
+            font-weight: bold;
+            color: var(--highlight);
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .reason-title {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--accent-red);
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        
+        .note {
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 1rem;
+            border-radius: 4px;
+            margin-top: 2rem;
+            font-style: italic;
+        }
+        
+        .share-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .share-button {
+            background-color: var(--accent-red);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .share-button:hover {
+            background-color: var(--highlight);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>15 Reasons Why I Am a Misandrist</h1>
+            <p class="subtitle">The Exhausting Realities of Patriarchy</p>
+        </header>
+        
+        <main>
+            <p><strong>A Raw & Unfiltered Look at How Patriarchy Breeds Distrust</strong></p>
+            
+            <div class="reason">
+                <div class="reason-number">1</div>
+                <h3 class="reason-title">Emotional Unavailability</h3>
+                <p>Women are expected to carry the emotional weight of relationships, while men remain distant, guarded, or dismissive. Why must we always be the therapists, never the ones being heard?</p>
+            </div>
+            
+            <div class="reason">
+                <div class="reason-number">2</div>
+                <h3 class="reason-title">Performative Feminism</h3>
+                <p>Some men love calling themselves "allies" while still benefiting from—and upholding—the same oppressive systems. Your Instagram post won't undo centuries of inequality, bro.</p>
+            </div>
+            
+            <div class="reason">
+                <div class="reason-number">3</div>
+                <h3 class="reason-title">Minimizing Trauma</h3>
+                <p>"She's exaggerating." "Not all men!" Women's pain—from harassment to assault—is constantly invalidated. Our suffering is a debate topic; your comfort is non-negotiable.</p>
+            </div>
+            
+            <div class="reason">
+                <div class="reason-number">4</div>
+                <h3 class="reason-title">Using Women for Comfort</h3>
+                <p>You'll take our emotional labor, our nurturing, our intimacy... but commitment? Nah. We're good enough to heal you, never enough to be prioritized.</p>
+            </div>
+            
+            <div class="reason">
+                <div class="reason-number">5</div>
+                <h3 class="reason-title">Control & Dominance</h3>
+                <p>From strict fathers to jealous boyfriends, male control is so normalized that women grow up thinking love means surrendering autonomy.</p>
+            </div>
+            
+            <div class="reason">
+                <div class="reason-number">6</div>
+                <h3 class="reason-title">Objectification</h3>
+                <p>Reduced to "hot or not," "wife material," or "just a hookup." Our humanity is an afterthought—if it's considered at all.</p>
+            </div>
+            
+            <div class="reason">
+                <div class="reason-number">7</div>
+                <h3 class="reason-title">Fear for Safety</h3>
+                <p>Every woman has a mental checklist: <em>Is this man safe?</em> We modify our behavior to survive, while men move through the world unburdened.</p>
+            </div>
+            
+            <div class="reason">
+                <div class="reason-number">8</div>
+                <h3 class="reason-title">Infidelity & Dishonesty</h3>
+                <p>Cheating is a "mistake." Ghosting is "just how dating is." But when women do it? We're cruel, heartless, "playing games."</p>
+            </div>
+            
+            <div class="reason">
+                <div class="reason-number">9</div>
+                <h3 class="reason-title">Fragile Egos</h3>
+                <p>A woman's success is a threat. Her independence is "intimidating." God forbid she's smarter, stronger, or more emotionally stable than you.</p>
+            </div>
+            
+            <div class="reason">
+                <div class="reason-number">10</div>
+                <h3 class="reason-title">The "Fix Me" Complex</h3>
+                <p>Women are expected to heal men's trauma, manage their anger, and endure neglect—while receiving zero emotional support in return.</p>
+            </div>
+            
+            <div class="reason">
+                <div class="reason-number">11</div>
+                <h3 class="reason-title">Sexual Entitlement</h3>
+                <p>"No" is a challenge. Rejection is a personal insult. Men act like access to our bodies is a right, not a privilege we grant.</p>
+            </div>
+            
+            <div class="reason">
+                <div class="reason-number">12</div>
+                <h3 class="reason-title">Weaponized Incompetence</h3>
+                <p><em>"I don't know how to cook/clean/plan anything!"</em> Funny how helplessness disappears when it's time to play video games or argue online.</p>
+            </div>
+            
+            <div class="reason">
+                <div class="reason-number">13</div>
+                <h3 class="reason-title">Silencing Tactics</h3>
+                <p>"Calm down." "You're overreacting." "She's crazy." The oldest tricks in the book to dismiss women's voices when we dare to speak up.</p>
+            </div>
+            
+            <div class="reason">
+                <div class="reason-number">14</div>
+                <h3 class="reason-title">Emotional Manipulation</h3>
+                <p>Love-bombing. Gaslighting. Breadcrumbing. Hot-and-cold mind games designed to keep us insecure, hooked, and under control.</p>
+            </div>
+            
+            <div class="reason">
+                <div class="reason-number">15</div>
+                <h3 class="reason-title">Systemic Privilege</h3>
+                <p>From pay gaps to medical dismissal, men benefit from systems built to oppress women. And yet, we're told <em>we're</em> the ones who hate too much?</p>
+            </div>
+            
+            <div class="note">
+                <h3>Final Thoughts</h3>
+                <p>Misandry isn't born in a vacuum—it's a response to lifetimes of exhaustion, betrayal, and systemic injustice. Until men collectively dismantle the patriarchy they uphold, distrust will remain a survival tactic.</p>
+                <p><strong>So yes, I'm a misandrist. And honestly? You should be too.</strong></p>
+            </div>
+            
+            <div class="share-buttons">
+                <button class="share-button">Share on Twitter</button>
+                <button class="share-button">Share on Facebook</button>
+                <button class="share-button">Copy Link</button>
+            </div>
+        </main>
+        
+        <footer>
+            <p><em>Note: This is a provocative piece meant to spark discussion. If you're a man who genuinely challenges these norms, prove it with actions—not defensiveness.</em></p>
+        </footer>
+    </div>
+</body>
+</html>
